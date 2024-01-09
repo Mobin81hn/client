@@ -1,0 +1,60 @@
+/* Main Slider */
+
+.swiper-pagination{
+    width: fit-content !important;
+    right: 50%;
+    transform: translateX(50%) !important;
+    -webkit-transform: translateX(50%) !important;
+    -moz-transform: translateX(50%) !important;
+    -ms-transform: translateX(50%) !important;
+    -o-transform: translateX(50%) !important;
+}
+.swiper-pagination-bullet{
+    background: rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255) !important;
+    width: 2rem !important;
+    border-radius: .1rem !important;
+}
+
+/* Products Slider */
+
+.sliderContainer {
+    scroll-snap-type: mandatory;
+    scroll-behavior: smooth;
+}
+
+.sliderContainer::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+.sliderItem {
+    scroll-snap-align: start;
+}
+
+/* React Toastify */
+
+.toast-message{
+    font-family: "vazir" !important;
+}
+
+/* Middle Banner Modal */
+
+.react-responsive-modal-modal{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+/* Ltr Inputs */
+
+.ltr-input{
+    direction: ltr;
+}
+
+/* SCROLL BARS */
+.shop-sidebar::-webkit-scrollbar{
+    display: none;
+}
