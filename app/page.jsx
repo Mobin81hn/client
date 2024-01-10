@@ -20,9 +20,9 @@ const Home = async () => {
       </>
       <main>
         <MainSlider />
-        <ProductsSlider data={data.apps} title="اپلیکیشن ها" compLink="apps" />
+        <ProductsSlider data={data.apps} title="اپلیکیشن ها" compLink="app" />
         <MiddleBanner />
-        <ProductsSlider data={data.books} title="کتاب ها" compLink="books" />
+        <ProductsSlider data={data.books} title="کتاب ها" compLink="book" />
         <Categories />
         <GraphicSlider data={data.graphicFiles}/>
         <NewBlogs/> 

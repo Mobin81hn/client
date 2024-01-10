@@ -39,7 +39,7 @@ const GraphicSlider = ({data}) => {
               className="hidden xs:inline-block cursor-pointer bg-zinc-200 transition-all duration-300 hover:bg-zinc-400 hover:text-white w-10 h-10 p-3 rounded"
             />
             <Link
-              href={'/'}
+              href={'/shop?type=gr'}
               className="py-2 px-4 mr-2 bg-blue-500 text-white rounded-md border-2 transition-all duration-500 hover:bg-blue-600"
             >
               دیدن همه

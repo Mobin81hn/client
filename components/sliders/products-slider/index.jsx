@@ -39,7 +39,7 @@ const ProductsSlider = ({data , title, compLink }) => {
               className="hidden xs:inline-block cursor-pointer bg-zinc-200 transition-all duration-300 hover:bg-orange-400 hover:text-white w-10 h-10 p-3 rounded"
             />
             <Link
-              href={`/${compLink}`}
+              href={`/shop?type=${compLink}`}
               className="py-2 px-4 mr-6 bg-orange-500 text-white rounded-md border-2 transition-all duration-500 hover:bg-orange-600"
             >
               دیدن همه
